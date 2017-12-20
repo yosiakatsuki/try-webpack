@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/yosiakatsuki/try-webpack#readme",
   "devDependencies": {
-    "webpack": "^3.10.0"
+    "gulp": "^3.9.1",
+    "webpack": "^3.10.0",
+    "webpack-stream": "^4.0.0"
   }
 }
