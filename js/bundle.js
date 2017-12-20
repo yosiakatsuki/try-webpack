@@ -72,7 +72,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modules_hello_world__ = __webpack_require__(1);
 
 
-Object(__WEBPACK_IMPORTED_MODULE_0__modules_hello_world__["a" /* hello_world */])('hello world');
+// hello_world('hello world'); を変更▼
+Object(__WEBPACK_IMPORTED_MODULE_0__modules_hello_world__["a" /* hello_world */])('hello world !!');
 
 /***/ }),
 /* 1 */
