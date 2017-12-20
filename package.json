@@ -1,0 +1,24 @@
+{
+  "name": "try-webpack",
+  "version": "1.0.0",
+  "description": "webpack試してみるぞ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosiakatsuki/try-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yosiakatsuki/try-webpack/issues"
+  },
+  "homepage": "https://github.com/yosiakatsuki/try-webpack#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
