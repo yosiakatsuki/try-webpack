@@ -72,18 +72,36 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modules_hello_world__ = __webpack_require__(1);
 
 
-// hello_world('hello world'); を変更▼
-Object(__WEBPACK_IMPORTED_MODULE_0__modules_hello_world__["a" /* hello_world */])('hello world !!');
+var hello = new __WEBPACK_IMPORTED_MODULE_0__modules_hello_world__["a" /* default */]('hello world?');
+hello.hello_world();
 
 /***/ }),
 /* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = hello_world;
-function hello_world(message) {
-  alert(message);
-}
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Message = function () {
+  function Message(message) {
+    _classCallCheck(this, Message);
+
+    this._message = message;
+  }
+
+  _createClass(Message, [{
+    key: "hello_world",
+    value: function hello_world() {
+      alert(this._message);
+    }
+  }]);
+
+  return Message;
+}();
+
+/* harmony default export */ __webpack_exports__["a"] = (Message);
 
 /***/ })
 /******/ ]);
